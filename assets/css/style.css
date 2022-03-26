@@ -11,3 +11,51 @@
   --first-accent-color: #717744;
   --second-accent-color: #5e3023;
 }
+
+body {
+  color: var(--second-accent-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+header {
+  background-color: var(--primary-color);
+  display: flex;
+  padding: 20px 35px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-weight: lighter;
+  font-size: 70px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+header nav {
+  font-size: 36px;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: center;
+}
+
+header nav ul li a {
+  font-weight: bold;
+}
+
+header h1 a,
+header nav ul li a {
+  color: inherit;
+}
