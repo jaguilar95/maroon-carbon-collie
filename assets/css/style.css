@@ -83,8 +83,10 @@ section {
 .hero p {
   background-color: var(--secondary-color);
   height: 2em;
+  width: 750px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
-  padding: 10px;
   font-size: 50px;
 }
 
