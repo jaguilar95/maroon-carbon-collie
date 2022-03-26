@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #83b5d1;
+  --secondary-color: #dab49d;
+  --tertiary-color: #726e97;
+  --first-accent-color: #717744;
+  --second-accent-color: #5e3023;
+}
