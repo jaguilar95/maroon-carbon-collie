@@ -7,7 +7,8 @@
 :root {
   --primary-color: #83b5d1;
   --secondary-color: #dab49d;
-  --tertiary-color: #726e97;
+  --tertiary-color: rgb(114, 110, 151);
+  --tertiary-color-fade: rgba(114, 110, 151, 0.8);
   --first-accent-color: #717744;
   --second-accent-color: #5e3023;
 }
@@ -57,5 +58,46 @@ header nav ul li a {
 
 header h1 a,
 header nav ul li a {
+  color: inherit;
+}
+
+/* utility classes */
+
+section {
+  padding: 60px;
+}
+
+/* hero */
+
+.hero {
+  background-image: url("../images/josue_hero_portrait.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-weight: bold;
+}
+
+.hero p {
+  background-color: var(--secondary-color);
+  height: 2em;
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+}
+
+/* about me */
+
+/* projects */
+
+/* contact me */
+
+.contact-info {
+  list-style-type: none;
+}
+
+.contact-info li a {
   color: inherit;
 }
