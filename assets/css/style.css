@@ -64,7 +64,12 @@ header nav ul li a {
 /* utility classes */
 
 section {
-  padding: 60px;
+  padding: 30px;
+}
+
+.section-title {
+  border-bottom: 2px solid var(--first-accent-color);
+  color: var(--first-accent-color);
 }
 
 /* hero */
@@ -83,14 +88,18 @@ section {
 .hero p {
   background-color: var(--secondary-color);
   height: 2em;
-  width: 750px;
+  width: 500px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 /* about me */
+
+.about-me-text p {
+  padding: 20px 0 20px 0;
+}
 
 /* projects */
 
