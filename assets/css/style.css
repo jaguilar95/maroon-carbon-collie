@@ -25,6 +25,8 @@ a {
 /* utility classes */
 
 section {
+  display: flex;
+  flex-direction: column;
   padding: 30px;
 }
 
@@ -33,7 +35,6 @@ section {
   color: var(--first-accent-color);
   padding-bottom: 20px;
   font-size: 80px;
-  margin-bottom: 40px;
 }
 
 /* header */
@@ -111,7 +112,7 @@ header nav ul li a {
 }
 
 .project-most-recent {
-  height: 400px;
+  height: 300px;
   margin: 10px 0 10px 0;
   background-image: url(../images/hero-bg.jpg);
   background-size: cover;
@@ -119,6 +120,7 @@ header nav ul li a {
 
 .project-most-recent h3 {
   font-size: 75px;
+  font-weight: bold;
 }
 
 .project-most-recent h4 {
@@ -191,4 +193,90 @@ header nav ul li a {
 
 .contact-info li a {
   color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-wrap: nowrap;
+    padding-top: 10;
+    padding-bottom: 0;
+  }
+
+  header h1 {
+    width: auto;
+    font-size: 36px;
+    flex: 1;
+    text-align: start;
+  }
+
+  header nav {
+    font-size: 20px;
+    flex: 1;
+  }
+
+  .hero {
+    height: 30em;
+    background-position: 0 25%;
+  }
+
+  header ul {
+    padding-top: 12px;
+  }
+
+  .hero p {
+    font-size: 30px;
+  }
+
+  section {
+    flex-direction: row;
+  }
+
+  .section-title {
+    font-size: 30px;
+    border-bottom: none;
+    border-right: 2px solid var(--first-accent-color);
+    padding-right: 20px;
+    width: 12%;
+  }
+
+  .about-me-text {
+    padding-left: 20px;
+    font-size: 40px;
+  }
+
+  .about-me-text p {
+    font-size: 20px;
+  }
+
+  .projects-flex {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .projects-previous {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .projects-previous-cards {
+    width: 49%;
+  }
+
+  .project-most-recent h3 {
+    font-size: 30px;
+  }
+
+  .project-most-recent h4 {
+    font-size: 24px;
+  }
+
+  .projects-previous-cards {
+    font-size: 30px;
+  }
+
+  .contact-info {
+    padding-left: 20px;
+    font-size: 24px;
+  }
 }
