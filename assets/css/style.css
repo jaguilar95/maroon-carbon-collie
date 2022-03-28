@@ -49,14 +49,14 @@ header {
 
 header h1 {
   font-weight: lighter;
-  font-size: 100px;
+  font-size: 75px;
   width: 100%;
   text-align: center;
   padding-bottom: 30px;
 }
 
 header nav {
-  font-size: 50px;
+  font-size: 30px;
   width: 100%;
 }
 
@@ -93,7 +93,7 @@ header nav ul li a {
   background-color: var(--primary-color);
   padding: 20px;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /* about me */
