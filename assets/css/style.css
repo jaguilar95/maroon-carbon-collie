@@ -113,6 +113,8 @@ header nav ul li a {
 .project-most-recent {
   height: 400px;
   margin: 10px 0 10px 0;
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
 }
 
 .project-most-recent h3 {
@@ -124,10 +126,34 @@ header nav ul li a {
   font-style: italic;
 }
 
+.small-card-1 {
+  background-image: url(../images/digital-marketing-meeting.jpg);
+  background-size: cover;
+  background-position: 0 80%;
+}
+
+.small-card-2 {
+  background-image: url(https://pm1.narvii.com/6469/0f7838bb6a0663aa1315726a48f1fd96a0635cc6_hq.jpg);
+  background-size: cover;
+}
+
+.small-card-3 {
+  background-image: url(https://i.redd.it/j7rx9xr4uy771.jpg);
+  background-size: cover;
+  background-position: 0 20%;
+}
+
+.small-card-4 {
+  background-image: url(https://logowik.com/content/uploads/images/anker2729.jpg);
+  background-size: cover;
+  background-position: 0 50%;
+}
+
 .projects-previous-cards {
   font-size: 50px;
   height: 200px;
   margin: 10px 0 10px 0;
+  font-weight: bold;
 }
 
 .project-most-recent,
@@ -135,6 +161,16 @@ header nav ul li a {
   border: 5px solid var(--tertiary-color);
   background-color: var(--secondary-color);
   padding: 10px;
+  position: relative;
+}
+
+.project-links::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* contact me */
