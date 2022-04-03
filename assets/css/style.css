@@ -204,20 +204,22 @@ header nav ul li a {
 @media screen and (min-width: 768px) {
   header {
     flex-wrap: nowrap;
-    padding-top: 10;
-    padding-bottom: 0;
+    padding: 20px;
   }
 
   header h1 {
     width: auto;
     font-size: 36px;
-    flex: 1;
     text-align: start;
+    padding: 0;
   }
 
   header nav {
-    font-size: 20px;
-    flex: 1;
+    font-size: 21px;
+  }
+
+  header nav ul {
+    width: auto;
   }
 
   .hero {
@@ -230,7 +232,8 @@ header nav ul li a {
   }
 
   .hero p {
-    font-size: 30px;
+    font-size: 36px;
+    padding: 10px;
   }
 
   section {
@@ -238,25 +241,23 @@ header nav ul li a {
   }
 
   .section-title {
-    font-size: 30px;
+    font-size: 34px;
     border-bottom: none;
     border-right: 2px solid var(--first-accent-color);
     padding-right: 20px;
-    width: 12vw;
+    flex: 1;
   }
 
   .about-me-text {
     padding-left: 20px;
-    font-size: 40px;
-  }
-
-  .about-me-text p {
-    font-size: 20px;
+    font-size: 21px;
+    flex: 9;
   }
 
   .projects-flex {
     width: 100vw;
     padding-left: 20px;
+    flex: 9;
   }
 
   .projects-previous {
@@ -266,23 +267,21 @@ header nav ul li a {
   }
 
   .projects-previous-cards {
-    width: 49vw;
+    width: 49%;
+    font-size: 34px;
   }
 
   .project-most-recent h3 {
-    font-size: 30px;
+    font-size: 34px;
   }
 
   .project-most-recent h4 {
-    font-size: 24px;
-  }
-
-  .projects-previous-cards {
     font-size: 30px;
   }
 
   .contact-info {
     padding-left: 20px;
-    font-size: 24px;
+    font-size: 30px;
+    flex: 9;
   }
 }
